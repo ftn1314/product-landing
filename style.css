@@ -132,7 +132,7 @@ a{
     margin: 10px;
     border: 1px solid #000;
     border-radius: 3px;
-    width: calc(100% / 3 );
+    width: 100%;
 }
 .product-title{
     background-color: #ddd;
@@ -144,18 +144,23 @@ a{
 }
 .product > h2 {
     margin-top: 15px;
+    text-align: center;
 }
 .product > ol{
     margin: 15px 0;
+    text-align: center;
+    padding-left: 0;
 }
 .product > ol > li {
     padding: 5px 0;
+    text-align: center;
 }
 .product > button{
     margin: 15px 0;
     border: 0;
     background-color: #f1c40f;
     font-weight: 400;
+    align-items: center;
 }
 .btn{
     padding: 0 20px;
@@ -172,13 +177,21 @@ footer{
     margin-top:30px ;
     background-color: #ddd;
     padding: 20px;
+    text-decoration: none;
 }
 footer > ul {
     display: flex;
     justify-content: flex-end;
+    text-decoration: none;
 }
 footer > ul > li {
     padding: 0px 10px;
+    text-decoration: none;
+}
+footer > ul > li > a{
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
 }
 footer > span {
     display: flex;
